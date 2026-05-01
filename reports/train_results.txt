@@ -1,0 +1,127 @@
+Dataset: \twitter-bot-detection\data\botwiki_verified_2019_balanced.csv
+Rows: 1396
+Class balance:
+Bot Label
+0    698
+1    698
+
+=== dummy_majority ===
+Accuracy: 0.5000
+Balanced accuracy: 0.5000
+Confusion matrix:
+[[140   0]
+ [140   0]]
+
+              precision    recall  f1-score   support
+
+       human       0.50      1.00      0.67       140
+         bot       0.00      0.00      0.00       140
+
+    accuracy                           0.50       280
+   macro avg       0.25      0.50      0.33       280
+weighted avg       0.25      0.50      0.33       280
+
+
+=== logistic_regression ===
+Accuracy: 0.9643
+Balanced accuracy: 0.9643
+Confusion matrix:
+[[136   4]
+ [  6 134]]
+
+              precision    recall  f1-score   support
+
+       human       0.96      0.97      0.96       140
+         bot       0.97      0.96      0.96       140
+
+    accuracy                           0.96       280
+   macro avg       0.96      0.96      0.96       280
+weighted avg       0.96      0.96      0.96       280
+
+
+=== linear_svc ===
+Accuracy: 0.9607
+Balanced accuracy: 0.9607
+Confusion matrix:
+[[135   5]
+ [  6 134]]
+
+              precision    recall  f1-score   support
+
+       human       0.96      0.96      0.96       140
+         bot       0.96      0.96      0.96       140
+
+    accuracy                           0.96       280
+   macro avg       0.96      0.96      0.96       280
+weighted avg       0.96      0.96      0.96       280
+
+
+=== random_forest ===
+Accuracy: 0.9536
+Balanced accuracy: 0.9536
+Confusion matrix:
+[[133   7]
+ [  6 134]]
+
+              precision    recall  f1-score   support
+
+       human       0.96      0.95      0.95       140
+         bot       0.95      0.96      0.95       140
+
+    accuracy                           0.95       280
+   macro avg       0.95      0.95      0.95       280
+weighted avg       0.95      0.95      0.95       280
+
+
+=== gradient_boosting_numeric ===
+Accuracy: 0.9500
+Balanced accuracy: 0.9500
+Confusion matrix:
+[[132   8]
+ [  6 134]]
+
+              precision    recall  f1-score   support
+
+       human       0.96      0.94      0.95       140
+         bot       0.94      0.96      0.95       140
+
+    accuracy                           0.95       280
+   macro avg       0.95      0.95      0.95       280
+weighted avg       0.95      0.95      0.95       280
+
+
+=== rbf_svm_numeric ===
+Accuracy: 0.9500
+Balanced accuracy: 0.9500
+Confusion matrix:
+[[132   8]
+ [  6 134]]
+
+              precision    recall  f1-score   support
+
+       human       0.96      0.94      0.95       140
+         bot       0.94      0.96      0.95       140
+
+    accuracy                           0.95       280
+   macro avg       0.95      0.95      0.95       280
+weighted avg       0.95      0.95      0.95       280
+
+
+=== mlp_neural_network_numeric ===
+Accuracy: 0.9679
+Balanced accuracy: 0.9679
+Confusion matrix:
+[[137   3]
+ [  6 134]]
+
+              precision    recall  f1-score   support
+
+       human       0.96      0.98      0.97       140
+         bot       0.98      0.96      0.97       140
+
+    accuracy                           0.97       280
+   macro avg       0.97      0.97      0.97       280
+weighted avg       0.97      0.97      0.97       280
+
+
+Best model: mlp_neural_network_numeric (balanced accuracy=0.9679)

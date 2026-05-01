@@ -1,0 +1,75 @@
+{
+  "dataset": "twitter-bot-detection\\data\\botwiki_verified_2019_balanced.csv",
+  "rows": 1396,
+  "class_balance": {
+    "0": 698,
+    "1": 698
+  },
+  "best_model": "mlp_neural_network_numeric",
+  "best_balanced_accuracy": 0.9678571428571429,
+  "metrics": [
+    {
+      "model": "dummy_majority",
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "true_human_pred_human": 140,
+      "true_human_pred_bot": 0,
+      "true_bot_pred_human": 140,
+      "true_bot_pred_bot": 0
+    },
+    {
+      "model": "logistic_regression",
+      "accuracy": 0.9642857142857143,
+      "balanced_accuracy": 0.9642857142857143,
+      "true_human_pred_human": 136,
+      "true_human_pred_bot": 4,
+      "true_bot_pred_human": 6,
+      "true_bot_pred_bot": 134
+    },
+    {
+      "model": "linear_svc",
+      "accuracy": 0.9607142857142857,
+      "balanced_accuracy": 0.9607142857142857,
+      "true_human_pred_human": 135,
+      "true_human_pred_bot": 5,
+      "true_bot_pred_human": 6,
+      "true_bot_pred_bot": 134
+    },
+    {
+      "model": "random_forest",
+      "accuracy": 0.9535714285714286,
+      "balanced_accuracy": 0.9535714285714285,
+      "true_human_pred_human": 133,
+      "true_human_pred_bot": 7,
+      "true_bot_pred_human": 6,
+      "true_bot_pred_bot": 134
+    },
+    {
+      "model": "gradient_boosting_numeric",
+      "accuracy": 0.95,
+      "balanced_accuracy": 0.95,
+      "true_human_pred_human": 132,
+      "true_human_pred_bot": 8,
+      "true_bot_pred_human": 6,
+      "true_bot_pred_bot": 134
+    },
+    {
+      "model": "rbf_svm_numeric",
+      "accuracy": 0.95,
+      "balanced_accuracy": 0.95,
+      "true_human_pred_human": 132,
+      "true_human_pred_bot": 8,
+      "true_bot_pred_human": 6,
+      "true_bot_pred_bot": 134
+    },
+    {
+      "model": "mlp_neural_network_numeric",
+      "accuracy": 0.9678571428571429,
+      "balanced_accuracy": 0.9678571428571429,
+      "true_human_pred_human": 137,
+      "true_human_pred_bot": 3,
+      "true_bot_pred_human": 6,
+      "true_bot_pred_bot": 134
+    }
+  ]
+}

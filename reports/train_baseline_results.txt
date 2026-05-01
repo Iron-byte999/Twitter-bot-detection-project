@@ -1,0 +1,40 @@
+Dataset: \data\botwiki_verified_2019_balanced.csv
+Rows: 1396
+Class balance:
+Bot Label
+0    698
+1    698
+
+=== dummy_majority ===
+Accuracy: 0.5000
+Balanced accuracy: 0.5000
+Confusion matrix:
+[[140   0]
+ [140   0]]
+
+              precision    recall  f1-score   support
+
+       human       0.50      1.00      0.67       140
+         bot       0.00      0.00      0.00       140
+
+    accuracy                           0.50       280
+   macro avg       0.25      0.50      0.33       280
+weighted avg       0.25      0.50      0.33       280
+
+
+=== logistic_regression_baseline ===
+Accuracy: 0.9143
+Balanced accuracy: 0.9143
+Confusion matrix:
+[[120  20]
+ [  4 136]]
+
+              precision    recall  f1-score   support
+
+       human       0.97      0.86      0.91       140
+         bot       0.87      0.97      0.92       140
+
+    accuracy                           0.91       280
+   macro avg       0.92      0.91      0.91       280
+weighted avg       0.92      0.91      0.91       280
+

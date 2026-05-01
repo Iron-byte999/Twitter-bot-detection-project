@@ -1,0 +1,8 @@
+model,accuracy,balanced_accuracy,true_human_pred_human,true_human_pred_bot,true_bot_pred_human,true_bot_pred_bot
+dummy_majority,0.5,0.5,140,0,140,0
+logistic_regression,0.9642857142857143,0.9642857142857143,136,4,6,134
+linear_svc,0.9607142857142857,0.9607142857142857,135,5,6,134
+random_forest,0.9535714285714286,0.9535714285714285,133,7,6,134
+gradient_boosting_numeric,0.95,0.95,132,8,6,134
+rbf_svm_numeric,0.95,0.95,132,8,6,134
+mlp_neural_network_numeric,0.9678571428571429,0.9678571428571429,137,3,6,134
